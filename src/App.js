@@ -1,19 +1,18 @@
-import React from 'react';
-import './App.css';
-import Details from "./containers/details/details"
-import About from "./containers/about/about"
+import React from "react";
+import "./App.css";
+import Details from "./containers/details/details";
+import About from "./containers/about/about";
 
 function App() {
   return (
     <div className="App">
       <div className="about">
-      <About/>
+        <About />
       </div>
 
       <div className="details">
-      <Details/>
+        <Details />
       </div>
-      
     </div>
   );
 }

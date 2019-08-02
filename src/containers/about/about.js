@@ -2,6 +2,8 @@ import React from "react";
 import "../../App.css";
 
 const about = () => (
+  // lft summary component, no props or state used
+
   <div>
     <img src={require("../../images/profile.jpg")} alt="profile" />
     <h1>Dewald Stander</h1>
